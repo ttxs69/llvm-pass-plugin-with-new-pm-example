@@ -33,6 +33,6 @@ clang -emit-llvm -S sum.c -o sum.ll -mllvm -disable-llvm-optzns -O1
 if use `-O0`, the function will be arributed with `optnone`, and the pass we wrote will not be used.
 
 ## Reference:
-https://llvm.org/docs/CMake.html
-https://llvm.org/docs/WritingAnLLVMNewPMPass.html
-https://github.com/banach-space/llvm-tutor
+- https://llvm.org/docs/CMake.html
+- https://llvm.org/docs/WritingAnLLVMNewPMPass.html
+- https://github.com/banach-space/llvm-tutor
