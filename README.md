@@ -13,6 +13,7 @@ brew install cmake
 ## build
 ```shell
 cmake -B build .
+make -C build
 ```
 
 ## run
